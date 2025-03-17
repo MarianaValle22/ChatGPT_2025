@@ -144,7 +144,7 @@ A continuación, se adjuntas capturas de pantalla de la aplicación para ilustra
 <p align="center">
   <img src="upgrade.jpg" alt="Upgrade Plan" width="20%"/>
   <img src="upgrade2.jpg" alt="Upgrade Plan Plus" width="20%"/>
-   <img src="faq.png" alt="FAQ" width="20%"/>
+   <img src="faq.jpg" alt="FAQ" width="20%"/>
 </p>
 
 <p align="center">
