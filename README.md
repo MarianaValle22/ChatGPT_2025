@@ -131,35 +131,31 @@ La aplicación utiliza **Firebase Authentication** para la gestión de usuarios 
 
 ---
 
-
 ## 8. Capturas de Pantalla
 A continuación, se adjuntas capturas de pantalla de la aplicación para ilustrar su funcionamiento.
 
 <p align="center">
   <img src="splashscreen.jpg" alt="Splashscreen" width="30%"/>
   <img src="login.jpg" alt="Login" width="30%"/>
-  <img src="Chat.jpg" alt="Chat" width="30%"/>
+  <img src="chat.jpg" alt="Chat" width="30%"/>
+  <img src="dashboard.jpg" alt="Dashboard" width="30%"/>
 </p>
 
 <p align="center">
-  <img src="dashboard.jpg" alt="Dashboard" width="30%"/>
   <img src="upgrade.jpg" alt="Upgrade Plan" width="30%"/>
   <img src="upgrade2.jpg" alt="Upgrade Plan Plus" width="30%"/>
+   <img src="faq.png" alt="FAQ" width="30%"/>
 </p>
 
 <p align="center">
-  <img src="faq.png" alt="FAQ" width="30%"/>
   <img src="cleanConversations.jpg" alt="Clean All Conversations" width="30%"/>
   <img src="logout.jpg" alt="Logout" width="30%"/>
+  <img src="register.jpg" alt="Register" width="30%"/>
 </p>
 
 <p align="center">
-  <img src="register.jpg" alt="Register" width="30%"/>
   <img src="welcome1.jpg" alt="Welcome Screen 1" width="30%"/>
   <img src="welcome2.jpg" alt="Welcome Screen 2" width="30%"/>
-</p>
-
-<p align="center">
   <img src="welcome3.jpg" alt="Welcome Screen 3" width="30%"/>
   <img src="dashboardClean.jpg" alt="Dashboard New User" width="30%"/>
 </p>
