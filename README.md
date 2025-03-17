@@ -128,7 +128,6 @@ La aplicación utiliza **Firebase Authentication** para la gestión de usuarios 
 ## 8. Capturas de Pantalla
 A continuación, se adjuntas capturas de pantalla de la aplicación para ilustrar su funcionamiento.
 
-```
 ![SplashScreen](splashscreen.png)
 
 ![Login](login.jpg)
@@ -156,4 +155,3 @@ A continuación, se adjuntas capturas de pantalla de la aplicación para ilustra
 ![Welcome Screen 3](welcome3.jpg)
 
 ![Dashboard New User](dashboardClean.jpg)
-```
