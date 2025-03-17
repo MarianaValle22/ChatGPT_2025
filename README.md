@@ -129,5 +129,23 @@ La aplicación utiliza **Firebase Authentication** para la gestión de usuarios 
 A continuación, se adjuntas capturas de pantalla de la aplicación para ilustrar su funcionamiento.
 
 ```
+![SplashScreen](splashscreen.png)
 
+![Login](login.png)
+
+![Chat](Chat.png)
+
+![Dashboard](dashboard.png)
+
+![Upgrade Plan](upgrade.png)
+
+![Upgrade Plan](upgrade2.png)
+
+![FAQ](faq.png)
+
+![Clean All Conversations](cleanConversations.png)
+
+![Logout](logout.png)
+
+![Register](register.png)
 ```
