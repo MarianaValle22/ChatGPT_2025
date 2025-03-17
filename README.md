@@ -24,9 +24,13 @@
 ---
 
 ## 1. Introducción
+<p align="justify">
 Este repositorio contiene una aplicación de chat basada en inteligencia artificial con ChatGPT, desarrollada en React Native. La aplicación permite a los usuarios interactuar con un asistente virtual, almacenar conversaciones en Firebase, crear una cuenta, eliminar todas sus conversaciones, explorar los diferentes planes de suscripción disponibles y acceder a una sección de preguntas frecuentes con información relevante.
+</p>
 
+<p align="justify">
 La arquitectura se basa en **Expo Router** para la navegación y **Firebase** para la autenticación y almacenamiento de datos. Además, se utiliza la **API de Google Cloud** para la generación automática de respuestas en las conversaciones.
+</p>
 
 ---
 
@@ -105,7 +109,9 @@ npm run start
 ---
 
 ## 5. Autenticación y Seguridad
+<p align="justify">
 La aplicación utiliza **Firebase Authentication** para la gestión de usuarios con correo electrónico y contraseña. Se aplican medidas de seguridad para evitar accesos no autorizados y se redirige automáticamente a los usuarios no autenticados.
+</p>
 
 ---
 
@@ -125,33 +131,35 @@ La aplicación utiliza **Firebase Authentication** para la gestión de usuarios 
 
 ---
 
+
 ## 8. Capturas de Pantalla
 A continuación, se adjuntas capturas de pantalla de la aplicación para ilustrar su funcionamiento.
 
-![SplashScreen](splashscreen.png)
+<p align="center">
+  <img src="splashscreen.jpg" alt="Splashscreen" width="30%"/>
+  <img src="login.jpg" alt="Login" width="30%"/>
+  <img src="Chat.jpg" alt="Chat" width="30%"/>
+</p>
 
-![Login](login.jpg)
+<p align="center">
+  <img src="dashboard.jpg" alt="Dashboard" width="30%"/>
+  <img src="upgrade.jpg" alt="Upgrade Plan" width="30%"/>
+  <img src="upgrade2.jpg" alt="Upgrade Plan Plus" width="30%"/>
+</p>
 
-![Chat](Chat.jpg)
+<p align="center">
+  <img src="faq.png" alt="FAQ" width="30%"/>
+  <img src="cleanConversations.jpg" alt="Clean All Conversations" width="30%"/>
+  <img src="logout.jpg" alt="Logout" width="30%"/>
+</p>
 
-![Dashboard](dashboard.jpg)
+<p align="center">
+  <img src="register.jpg" alt="Register" width="30%"/>
+  <img src="welcome1.jpg" alt="Welcome Screen 1" width="30%"/>
+  <img src="welcome2.jpg" alt="Welcome Screen 2" width="30%"/>
+</p>
 
-![Upgrade Plan](upgrade.jpg)
-
-![Upgrade Plan Plus](upgrade2.jpg)
-
-![FAQ](faq.png)
-
-![Clean All Conversations](cleanConversations.jpg)
-
-![Logout](logout.jpg)
-
-![Register](register.jpg)
-
-![Welcome Screen 1](welcome1.jpg)
-
-![Welcome Screen 2](welcome2.jpg)
-
-![Welcome Screen 3](welcome3.jpg)
-
-![Dashboard New User](dashboardClean.jpg)
+<p align="center">
+  <img src="welcome3.jpg" alt="Welcome Screen 3" width="30%"/>
+  <img src="dashboardClean.jpg" alt="Dashboard New User" width="30%"/>
+</p>
