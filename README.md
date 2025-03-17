@@ -131,21 +131,29 @@ A continuación, se adjuntas capturas de pantalla de la aplicación para ilustra
 ```
 ![SplashScreen](splashscreen.png)
 
-![Login](login.png)
+![Login](login.jpg)
 
-![Chat](Chat.png)
+![Chat](Chat.jpg)
 
-![Dashboard](dashboard.png)
+![Dashboard](dashboard.jpg)
 
-![Upgrade Plan](upgrade.png)
+![Upgrade Plan](upgrade.jpg)
 
-![Upgrade Plan](upgrade2.png)
+![Upgrade Plan Plus](upgrade2.jpg)
 
 ![FAQ](faq.png)
 
-![Clean All Conversations](cleanConversations.png)
+![Clean All Conversations](cleanConversations.jpg)
 
-![Logout](logout.png)
+![Logout](logout.jpg)
 
-![Register](register.png)
+![Register](register.jpg)
+
+![Welcome Screen 1](welcome1.jpg)
+
+![Welcome Screen 2](welcome2.jpg)
+
+![Welcome Screen 3](welcome3.jpg)
+
+![Dashboard New User](dashboardClean.jpg)
 ```
