@@ -1,50 +1,133 @@
-# Welcome to your Expo app 👋
+# Aplicación de Chat con React Native y Firebase
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Información del Proyecto
+- **Universidad:** Universidad de La Sabana  
+- **Facultad:** Facultad de Ingeniería  
+- **Materia:** Desarrollo Móvil  
+- **Profesor:** Hans Camilo Correa Castro  
 
-## Get started
+## Creado por
+| Nombre | Correo Electrónico |
+|--------|--------------------|
+| Mariana Valle Moreno | marianavamo@unisabana.edu.co |
 
-1. Install dependencies
+## Estructura de la Documentación
+- [1. Introducción](#1-introducción)
+- [2. Tecnologías Utilizadas](#2-tecnologías-utilizadas)
+- [3. Instalación y Configuración](#3-instalación-y-configuración)
+- [4. Funcionalidades Clave](#4-funcionalidades-clave)
+- [5. Autenticación y Seguridad](#5-autenticación-y-seguridad)
+- [6. Mejoras Futuras](#6-mejoras-futuras)
+- [7. Herramientas Útiles](#7-herramientas-útiles)
+- [8. Capturas de Pantalla](#8-capturas-de-pantalla)
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 1. Introducción
+Este repositorio contiene una aplicación de chat basada en inteligencia artificial con ChatGPT, desarrollada en React Native. La aplicación permite a los usuarios interactuar con un asistente virtual, almacenar conversaciones en Firebase, crear una cuenta, eliminar todas sus conversaciones, explorar los diferentes planes de suscripción disponibles y acceder a una sección de preguntas frecuentes con información relevante.
 
-   ```bash
-    npx expo start
-   ```
+La arquitectura se basa en **Expo Router** para la navegación y **Firebase** para la autenticación y almacenamiento de datos. Además, se utiliza la **API de Google Cloud** para la generación automática de respuestas en las conversaciones.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 2. Tecnologías Utilizadas
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Tecnología             | Descripción                                       |
+|-----------------------|-------------------------------------------------|
+| **React Native**      | Framework para desarrollo móvil multiplataforma. |
+| **Expo Router**       | Sistema de navegación basado en rutas para Expo. |
+| **Firebase Authentication** | Servicio de autenticación de usuarios. |
+| **Firebase Firestore** | Base de datos en la nube para almacenar chats. |
+| **Google Cloud API**  | Servicio para la generación de respuestas inteligentes. |
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 3. Instalación y Configuración
 
-```bash
-npm run reset-project
+### 1. Clonar el repositorio
+```sh
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Instalar dependencias
+```sh
+npm install
+```
 
-## Learn more
+### 3. Configurar Firebase
+#### 1. Crear un proyecto en Firebase Console:
+[Acceder a Firebase]([https://firebase.google.com/?hl=es-419])
 
-To learn more about developing your project with Expo, look at the following resources:
+#### 2. Agregar una aplicación web o móvil y obtener las credenciales.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+#### 3. Crear un archivo `FirebaseConfig.js` dentro de `/utils/` y agregar el siguiente código:
+```js
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
-## Join the community
+const firebaseConfig = {
+  apiKey: "TU_API_KEY",
+  authDomain: "TU_AUTH_DOMAIN",
+  projectId: "TU_PROJECT_ID",
+  storageBucket: "TU_STORAGE_BUCKET",
+  messagingSenderId: "TU_MESSAGING_SENDER_ID",
+  appId: "TU_APP_ID"
+};
 
-Join our community of developers creating universal apps.
+const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
+export const db = getFirestore(app);
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 4. Ejecutar la aplicación
+```sh
+npm run start
+```
+
+---
+
+## 4. Funcionalidades Clave
+
+### Chat con IA
+- Almacenamiento de conversaciones en Firebase.
+- Respuestas en tiempo real utilizando la API de Google Cloud.
+- Interfaz optimizada para experiencia de usuario intuitiva.
+
+### Planes de Suscripción
+- Opción para visualizar plan **Plus** y **Pro** con características exclusivas.
+
+### Sección de Preguntas Frecuentes
+- Lista de preguntas frecuentes para guiar a los usuarios.
+- Información detallada sobre los planes y el funcionamiento de la aplicación.
+
+---
+
+## 5. Autenticación y Seguridad
+La aplicación utiliza **Firebase Authentication** para la gestión de usuarios con correo electrónico y contraseña. Se aplican medidas de seguridad para evitar accesos no autorizados y se redirige automáticamente a los usuarios no autenticados.
+
+---
+
+## 6. Posibles Mejoras Futuras
+- Implementación de un modo offline para acceder a conversaciones previas sin conexión.
+- Optimización del almacenamiento en **Firestore**.
+- Implementación de un sistema de **notificaciones push** para alertas en tiempo real.
+- Posibilidad de personalizar el chatbot con diferentes modelos de IA.
+
+---
+
+## 7. Herramientas Útiles
+- **[React Native Docs]([https://reactnative.dev/docs/environment-setup])**
+- **[Introduction to Expo Router Docs]([https://docs.expo.dev/router/introduction/])**
+- **[Firebase Docs]([https://firebase.google.com/docs?hl=es-419])**
+- **[Google Cloud APIs & Services]([https://console.cloud.google.com/apis/dashboard?hl=es-419&project=dam-chatgpt-2025-7eba5])**
+
+---
+
+## 8. Capturas de Pantalla
+A continuación, se adjuntas capturas de pantalla de la aplicación para ilustrar su funcionamiento.
+
+```
+
+```
