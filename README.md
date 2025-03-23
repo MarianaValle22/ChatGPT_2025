@@ -135,27 +135,27 @@ La aplicación utiliza **Firebase Authentication** para la gestión de usuarios 
 A continuación, se adjuntas capturas de pantalla de la aplicación para ilustrar su funcionamiento.
 
 <p align="center">
-  <img src="splashscreen.jpg" alt="Splashscreen" width="20%"/>
-  <img src="login.jpg" alt="Login" width="20%"/>
-  <img src="chat.jpg" alt="Chat" width="20%"/>
-  <img src="dashboard.jpg" alt="Dashboard" width="20%"/>
+  <img src="Screenshots/splashscreen.jpg" alt="Splashscreen" width="20%"/>
+  <img src="Screenshots/login.jpg" alt="Login" width="20%"/>
+  <img src="Screenshots/chat.jpg" alt="Chat" width="20%"/>
+  <img src="Screenshots/dashboard.jpg" alt="Dashboard" width="20%"/>
 </p>
 
 <p align="center">
-  <img src="upgrade.jpg" alt="Upgrade Plan" width="20%"/>
-  <img src="upgrade2.jpg" alt="Upgrade Plan Plus" width="20%"/>
-   <img src="faq.jpg" alt="FAQ" width="20%"/>
+  <img src="Screenshots/upgrade.jpg" alt="Upgrade Plan" width="20%"/>
+  <img src="Screenshots/upgrade2.jpg" alt="Upgrade Plan Plus" width="20%"/>
+   <img src="Screenshots/faq.jpg" alt="FAQ" width="20%"/>
 </p>
 
 <p align="center">
-  <img src="cleanConversations.jpg" alt="Clean All Conversations" width="20%"/>
-  <img src="logout.jpg" alt="Logout" width="20%"/>
-  <img src="register.jpg" alt="Register" width="20%"/>
+  <img src="Screenshots/cleanConversations.jpg" alt="Clean All Conversations" width="20%"/>
+  <img src="Screenshots/logout.jpg" alt="Logout" width="20%"/>
+  <img src="Screenshots/register.jpg" alt="Register" width="20%"/>
 </p>
 
 <p align="center">
-  <img src="welcome1.jpg" alt="Welcome Screen 1" width="20%"/>
-  <img src="welcome2.jpg" alt="Welcome Screen 2" width="20%"/>
-  <img src="welcome3.jpg" alt="Welcome Screen 3" width="20%"/>
-  <img src="dashboardClean.jpg" alt="Dashboard New User" width="20%"/>
+  <img src="Screenshots/welcome1.jpg" alt="Welcome Screen 1" width="20%"/>
+  <img src="Screenshots/welcome2.jpg" alt="Welcome Screen 2" width="20%"/>
+  <img src="Screenshots/welcome3.jpg" alt="Welcome Screen 3" width="20%"/>
+  <img src="Screenshots/dashboardClean.jpg" alt="Dashboard New User" width="20%"/>
 </p>
